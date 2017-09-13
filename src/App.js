@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import UserList from './dev/containers/user-list'
+import UserList from './dev/containers/user-list';
+import UserDetail from './dev/containers/user-detail';
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
         <UserList />
         <hr/>
         <h2>User Details:</h2>
+        <UserDetail/>
       </div>
     );
   }
